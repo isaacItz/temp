@@ -1,0 +1,50 @@
+body {
+    background-image: url("../recursos/img/fondo_ejercicio1.png");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+#figura {
+    width: 600px;
+    height: 500px;
+    position: relative;
+    left: 350px;
+    top: 40px;
+   /* background-image: url("../recursos/img/cocodrilo.png");
+    background-repeat: no-repeat;
+    */
+}
+#vocales, #entrada{
+    width: 100%;
+    color: brown;
+    background: transparent;
+    margin: 20px auto;
+    text-align: center;
+}
+#vocales input{
+    color: white;
+    font-size: 60px;
+    width: 50px;
+    height: 15;
+    border-radius: 15px;
+    background: #adc8c2;
+    margin-left: 25px;
+    text-align: center;
+}
+#entrada input {
+    position: relative;
+    color: black;
+    width: 60px;
+    height: 50px;
+    border: none;
+    border-bottom: 5px solid brown;
+    background: #adc8c2;
+    margin-left: 10px;
+}
+#boton {
+    position relative;
+    background: green;
+    width: 100px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 600px;
+}

@@ -1,0 +1,163 @@
+/*button {
+    font-family: inherit;
+    border: double;
+    transition: 500ms;
+    border-radius: 15px;
+    width: auto;
+    height: 45px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background: darkred;
+    box-shadow: 5px 5px 30px rgb(83, 82, 82);
+    border-radius: 25px;
+}*/
+
+h1 {
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+}
+
+
+/*Esta clase hace redonda las imagenes*/
+
+.img-redonda {
+    border-radius: 1000px;
+    height: 100px;
+    width: auto;
+}
+
+section {
+    padding: 15px 90px;
+    font-size: medium;
+    font-style: oblique;
+    width: auto;
+    height: auto;
+}
+
+td,
+th {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: medium;
+    font-style: oblique;
+    text-align: center;
+}
+
+
+/*esta clase arregla las cajas que estan dentro de la tabla*/
+
+.input-ta {
+    height: 30px;
+    width: 185px;
+}
+
+
+/*input {
+    height: 30px;
+    width: 49%;
+    background-color: rgb(180, 177, 177);
+    border: none;
+    border-radius: 5px;
+}*/
+
+
+/*Esta clase define el tamaño del boton de radio*/
+
+.input-radio {
+    height: auto;
+    width: auto;
+}
+
+input:hover {
+    background-color: rgb(245, 245, 245);
+    border: solid rgb(10, 255, 10) 1px;
+}
+
+aside {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    float: left;
+    width: auto;
+    height: 600px;
+    padding: 10px;
+    border: dotted;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.178);
+}
+
+
+/*Esta clase aplica una animacion al logo*/
+
+.anima-ima {
+    position: relative;
+    animation: myfirst 5s linear 1s infinite alternate;
+}
+
+@keyframes myfirst {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 250px;
+        top: 0px;
+    }
+    50% {
+        left: 250px;
+        top: 300px;
+    }
+    75% {
+        left: 0px;
+        top: 300px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+nav {
+    padding: 15px 95px;
+    font-size: small;
+    font-style: italic;
+}
+
+header {
+    text-align: center;
+    font-size: large;
+}
+
+label {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: darkred;
+}
+
+.div_ini {
+    border: solid rgb(109, 177, 255) 1px;
+    background: rgba(111, 171, 240, 0.562);
+    padding-right: 10px;
+    border-radius: 40px;
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+.botones-r {
+    border: none;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

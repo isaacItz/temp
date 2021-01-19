@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/registro.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Registro</title>
+</head>
+
+
+<body>
+    <header>
+        <h1>Registro</h1>
+        <hr>
+    </header>
+
+    <!--aside>
+        <p>
+            <ol>
+                <li>
+                    Registrate <br>
+                </li>
+                <li>
+                    Disfrurta de los beneficos del Registro:<br>
+                    <ul>
+                        <li>
+                            Compra tus voletos con simplemente <br>unos cuantos clics, desde la <br>comodidad de tu casa <br>
+                        </li>
+                        <li>
+                            Haz compras de cualquier producto de <br>nuestras sucursales <br>
+                        </li>
+                        <li>
+                            Disfruta de nuestro servicio VIP<br>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </p>
+        <img src="../recursos/img/logo_prueba.jpeg" alt="Imagen no encontrada" class="anima-ima">
+    </aside-->
+
+
+    <section style="background:url(../recursos/img/fondo_paisaje.png) no-repeat center center fixed;">
+        <center>
+            <div class="div_ini">
+                <table>
+                    <tr>
+                        <th>
+                            <label for="nombre">Nombre  </label><br>
+                            <input type="text" id="nombre" class="input-ta"><br><br>
+
+                            <label for="apePa">  Apellido Paterno  </label><br>
+                            <input type="text" id="apePa" class="input-ta"><br><br>
+
+                            <label for="apeMa">  Apellido Materno  </label><br>
+                            <input type="text" id="apeMA" class="input-ta"><br><br>
+
+                            <label for="genero">Genero</label><br>
+                            <select name="Genero" class="input-ta">
+                            <option selected>Opción</option>
+                            <option  id="genFemenino">Femenino</option>
+                            <option id="genMasculino">Masculino</option>
+                        </select><br><br>
+
+                            <label for="curp">CURP</label><br>
+                            <input type="text" id="curp" class="input-ta"><br>
+                        </th>
+
+                        <th>
+                            <br>
+                            <label for="Fnac">Fecha de nacimiento</label><br>
+                            <input type="date" id="Fnac" class="input-ta"><br><br>
+
+                            <label for="correo">Correo electrónico</label><br>
+                            <input type="text" id="correo" class="input-ta"><br><br>
+
+                            <label for="nombreUsuario">Nombre de usuario</label><br>
+                            <input type="text" id="nombreUsuario" class="input-ta"><br><br>
+
+                            <label for="pwd">Contraseña</label><br>
+                            <input type="password" id="pwd" class="input-ta"><br><br>
+
+                            <label for="pwd">Repetir contraseña</label><br>
+                            <input type="password" id="Rpwd" class="input-ta"><br><br>
+                        </th>
+                    </tr>
+                </table>
+                <input type="radio" class="input-radio"><label for="terminos">He leído y acepto la <a href="terminos.html">Política de Privacidad</a> de Dislexia Kids</label><br>
+                <br>
+                <a href="../index.html">
+                    <button class="botones-r btn-dang">Regresar</button>
+                </a>
+                <button id="registrar" class="botones-r btn-pry">Registrame</button>
+            </div>
+        </center>
+    </section>
+</body>
+
+</html>
