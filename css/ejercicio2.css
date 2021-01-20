@@ -39,6 +39,7 @@ body {
     border-bottom: 5px solid brown;
     background: #adc8c2;
     margin-left: 10px;
+    font-size: 50px;
 }
 #boton {
     position relative;
