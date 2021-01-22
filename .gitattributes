@@ -1,5 +1,7 @@
-* text eol=lf
-*.html text eol=lf
+* text=auto
+*.html text
+*.css text
+*.php text
 
 *.png binary
 *.ico binary
