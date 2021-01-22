@@ -1,0 +1,7 @@
+* text=auto
+*.html text
+*.css text
+*.php text
+
+*.png binary
+*.ico binary
